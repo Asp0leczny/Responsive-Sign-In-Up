@@ -1,0 +1,76 @@
+html, body{
+    height: 100%;
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+    
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: url(/images/low-poly-grid-haikei.svg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+#content{
+    
+    background-color: white;
+    height: 50%;
+    width:  25%;
+    border-radius: 10%;
+       
+}
+
+#login{
+    font-size: 1.5em;  
+    padding-top: 15px;
+}
+#credentials{
+    font-size: 0.7em;
+}
+#content > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+form  a {
+    font-size: x-small;
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+    margin: 5%;
+}
+
+#btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px rgb(23, 23, 233);
+    border-radius: 5%;
+    padding: 2%;
+    color: white;
+    background-color: rgb(23, 23, 233)
+    
+}
+
+input{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 5px;   
+}
+
