@@ -4,23 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9f1d9d4797.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Sign In</title>
 </head>
 <body>
-    <div id="main">
-        <div id="content">  
-                <p id="login">Login</p>
-                <p id="credentials">Enter your credentials</p>
-            <div id="form">
-                <form action="" method="post">
-                    <input type="email" name="email" id="email" placeholder="Email" required>
-                    <input type="password" name="pass" id="pass" placeholder="password" required>
-                    <a href="">forgot password?</a>
-                    <div id="btn">submit</div>
-                </form>
+    <div class="wrapper">
+       <div class="title"><span>Login Form</span></div>
+        <form action="#">
+            <div class="row">
+                <i class="fa-solid fa-user"></i>
+                <input type="email" name="email" class="email" placeholder="Email">
             </div>
-        </div>
+            <div class="row">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="password" class="password" placeholder="password">
+            </div>
+            <div class="row">
+                <input type="button" value="login">
+                <div class="pass"> <a href="#">Forgot password?</a></div>
+            </div>
+        </form>
     </div>
 </body>
 </html>
