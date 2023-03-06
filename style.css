@@ -8,7 +8,8 @@
 
 
  body {
-
+    display: grid;
+    place-items: center;
     background-color: #0d1b2a;
     overflow: hidden;
        
@@ -25,7 +26,7 @@
 
 .wrapper{
 
-    width: 100%;
+    width: 400px;
     background-color: #1b263b;
     border-radius: 5px;
       
@@ -80,6 +81,7 @@
 
 .wrapper form .pass{
 
+    color:#FFF;
     margin-bottom: 10px;
     
 }
@@ -91,7 +93,7 @@
 }
 
 .wrapper form .pass a{
-
+    
     color:#FFF;
     text-decoration: none;
     
